@@ -11,7 +11,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            # Create and activate the python virtual environment
+            # (TEXT TO CAUSE MERGE CONFLICT)
             - name: Set up Python
               uses: actions/setup-python@v2
               with:
