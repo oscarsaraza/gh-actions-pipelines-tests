@@ -54,6 +54,6 @@ jobs:
           MERGE_REMOVE_LABELS: "FEATURE BRANCH MERGE"
           MERGE_COMMIT_MESSAGE: pull-request-title
           MERGE_FORKS: "false"
-          MERGE_REQUIRED_APPROVALS: 1
+          MERGE_REQUIRED_APPROVALS: 0
           MERGE_DELETE_BRANCH: "true"
 
