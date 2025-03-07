@@ -38,6 +38,7 @@ jobs:
         run: |
           coverage run -m unittest
           coverage report -m
+
   automerge:
     name: Automerge
     needs: build
@@ -56,4 +57,3 @@ jobs:
           MERGE_FORKS: "false"
           MERGE_REQUIRED_APPROVALS: 0
           MERGE_DELETE_BRANCH: "true"
-
