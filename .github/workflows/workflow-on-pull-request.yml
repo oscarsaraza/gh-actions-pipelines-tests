@@ -50,8 +50,8 @@ jobs:
         uses: "pascalgn/automerge-action@4536e8847eb62fe2f0ee52c8fa92d17aa97f932f"
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          MERGE_LABELS: "FEATURE BRANCH MERGE"
-          MERGE_REMOVE_LABELS: "FEATURE BRANCH MERGE"
+          MERGE_LABELS: "AUTOMERGE"
+          MERGE_REMOVE_LABELS: "AUTOMERGE"
           MERGE_COMMIT_MESSAGE: pull-request-title
           MERGE_FORKS: "false"
           MERGE_REQUIRED_APPROVALS: 0
